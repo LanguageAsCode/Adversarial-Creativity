@@ -22,7 +22,7 @@ This framework transforms generative AI from a simple information-retrieval tool
 │   └── wildcard-technique.md         # Wildcard technique documentation
 └── examples/                          # Practical implementation examples
     ├── README.md                      # Examples overview
-    ├── contextual-enhanccement/      # Enhancement mode examples
+    ├── contextual-enhancement/       # Enhancement mode examples
     │   └── template.md
     └── pure-generation/              # Pure generation mode examples
         ├── logo-design-abstract/
