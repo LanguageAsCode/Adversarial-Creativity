@@ -63,7 +63,7 @@ This is the most critical strategic step, as the persona dictates the quality an
 Setting up the project environment correctly is essential for triggering the desired creative behavior.
 
 1. Create a new notebook in Google NotebookLM.
-2. Prepare two source files on your local machine: your persona prompt (e.g., `Persona.md) and a wildcard source (e.g., `Ingredients.md`, `Brand.md`, or `Source.md` containing only `the `*wildcard`, `*TBD`, or `*placeholder`).
+2. Prepare two source files on your local machine: your persona prompt (e.g., `Persona.md`) and a wildcard source (e.g., `Ingredients.md`, `Brand.md`, or `Source.md` containing only the `*wildcard`, `*TBD`, or `*placeholder`).
 3. Paste the `*wildcard`, `*TBD`, or `*placeholder` as sources into the new notebook and name it Ingredients.
 
 It is critical that the persona prompt is NOT also included as a source. This allows the AI to reference its own instructions, reinforcing its role, methodology, and quality standards throughout the generation process. **Note:** If NotebookLM reports "not enough source material," The Persona lacks the language required to bypass the Grounding in Source Requirements. If the Output Generated ("Audio Overview", "Video Overview", "Infographic", or "Slide Deck,") is focused on the `*wildcard`, `*TBD`, or `*placeholder` the Persona needs adjustment. Currently the Audio Overview Feature has a tendency to solely focus on the source and WON"T follow the personas instructions.
